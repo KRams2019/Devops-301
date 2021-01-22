@@ -10,7 +10,7 @@ node {
 
 
   stage('GitCheckOut') {
-  git branch: 'terraform', url: 'https://github.com/KRams2019/MultiBranchTest.git'
+  git branch: 'Production', url: 'https://github.com/KRams2019/Devops-301.git'
   }
 
   stage('Build Managment') {
