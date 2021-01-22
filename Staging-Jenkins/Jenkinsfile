@@ -5,7 +5,7 @@ node {
  try {
 
  // Get Artifactory server instance, defined in the Artifactory Plugin administration page.
-    def server = Artifactory.server "01"
+    def server = Artifactory.server "artifactory-server-id"
     def buildInfo = Artifactory.newBuildInfo() 
 
  // Project Dir
@@ -13,7 +13,7 @@ node {
 
 
  stage('GitCheckOut') {
-  git branch: 'stage', credentialsId: '01', url: 'https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git'
+  git branch: 'Staging', credentialsId: '01', url: 'https://github.com/KRams2019/Devops-301.git'
  }
 
 
