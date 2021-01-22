@@ -30,6 +30,10 @@ node {
 	}"""
 	server.download spec: downloadSpec
    }
+	 
+  stage('Deployment - Staging') {
+      sh 'docker-compose up -d --build'
+    }
 
  }
 
