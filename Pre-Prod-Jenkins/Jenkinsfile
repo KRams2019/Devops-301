@@ -21,6 +21,12 @@ node {
  stage('Maven test') {
   sh 'mvn test'
  }
+	 
+ stage('Sonar Analysis'){
+    withSonarQubeEnv('sonar-server'){
+       sh 'mvn sonar:sonar'
+      }
+  }	 
 
  stage('Maven pkg') {
   sh 'mvn package'
