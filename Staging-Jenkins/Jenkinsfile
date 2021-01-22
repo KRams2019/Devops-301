@@ -13,7 +13,7 @@ node {
 
 
  stage('GitCheckOut') {
-  git branch: 'Staging', credentialsId: '01', url: 'https://github.com/KRams2019/Devops-301.git'
+  git branch: 'Staging', url: 'https://github.com/KRams2019/Devops-301.git'
  }
 
 
