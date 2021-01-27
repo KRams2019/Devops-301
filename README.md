@@ -1,6 +1,6 @@
 # Pre-Production Branch
-## This is a Pre-Production stage which includes the petclinic source code and we will deploy to the pre-production servers.:punch:
-### This is a spring boot project for petclinic software which maintains the records of all pets and their owner.
+** This is a Pre-Production stage which includes the petclinic source code and we will deploy to the pre-production servers.** :punch:
+** This is a spring boot project for petclinic software which maintains the records of all pets and their owner.** :metal:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. :sunglasses:
